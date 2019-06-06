@@ -98,7 +98,7 @@ sub action_self_upgrade {
 }
 
 1;
-# ABSTRACT:
+# ABSTRACT: Add --self-upgrade (-U) common option to upgrade program to the latest version on CPAN
 
 =for Pod::Coverage ^(.+)$
 
