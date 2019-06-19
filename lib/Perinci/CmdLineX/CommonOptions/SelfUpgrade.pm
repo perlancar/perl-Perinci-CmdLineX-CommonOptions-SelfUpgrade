@@ -76,7 +76,7 @@ sub action_self_upgrade {
     }
     $version_on_cpan = $apires->{version};
     unless (defined $version_on_cpan) {
-        return [412, "Cannot upgrade: Module $package's latest version on CPAN is undefined"];
+        return [412, "Cannot upgrade: Module $package\'s latest version on CPAN is undefined"];
     }
 
     if (defined $local_version &&
